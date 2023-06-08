@@ -110,11 +110,11 @@ while(True):
 
     elif "From wikipedia" in query:
 
-        speak("Checking Wikipedia ")
+        speak("Checking Wikipedia")
         query = query.replace("Wikipedia", "")
                 
         result = wikipedia.summary(query, sentences=4)
-        speak("According to Wikipedia,")
+        speak("According to Wikipedia")
         speak(result)
             
     elif "What is your name" in query:
