@@ -96,11 +96,11 @@ while(True):
         webbrowser.open("www.Google.com")
         continue
 
-    elif "What day is it?" in query:
+    elif "What day is it" in query:
         tell_day()
         continue
 
-    elif "What time is it?" in query:
+    elif "What time is it" in query:
         tell_time()
         continue
 
@@ -108,7 +108,7 @@ while(True):
         speak("Goodbye")
         exit()
 
-    elif "from wikipedia" in query:
+    elif "From wikipedia" in query:
 
         speak("Checking Wikipedia ")
         query = query.replace("Wikipedia", "")
@@ -117,7 +117,7 @@ while(True):
         speak("According to Wikipedia,")
         speak(result)
             
-    elif "tell me your name" in query:
+    elif "What is your name" in query:
         speak("I am Jarvis, your desktop Assistant")
     
     # Main method for executing functions
