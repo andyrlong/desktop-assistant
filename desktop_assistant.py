@@ -108,7 +108,7 @@ while(True):
         speak("Goodbye")
         exit()
 
-    elif "From wikipedia" in query:
+    elif "From Wikipedia" in query:
 
         speak("Checking Wikipedia")
         query = query.replace("Wikipedia", "")
